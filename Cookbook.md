@@ -95,3 +95,12 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyAccJerkMean
 * tBodyGyroMean
 * tBodyGyroJerkMean
+
+## Transformations
+In this project, I:
+1. Merged the training and the test sets (X_train.txt, X_test.txt) to create one data set (called x.data)
+2. Extracted only the measurements on the mean and standard deviation for each measurement (called meanstd.data)
+3. Used descriptive activity names (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) to name the activities in the data set
+4. Appropriately labelled the data set with descriptive variable names (as given in features.txt)
+5. Created an independent, tidy data set with the average of each variable for each activity and each subject (called tidy_data.txt)
+
